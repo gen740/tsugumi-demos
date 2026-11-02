@@ -1,4 +1,4 @@
-#include <tsugumi/sdk/card.hpp>
+#include <tsugumi/sdk/card.hh>
 
 #include "_inputs_generated.h"
 #include "_outputs_generated.h"

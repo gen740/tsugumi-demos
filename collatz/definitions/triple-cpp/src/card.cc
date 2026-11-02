@@ -1,4 +1,4 @@
-#include <tsugumi/sdk/card.hpp>
+#include <tsugumi/sdk/card.hh>
 
 #include <limits>
 #include <string>
