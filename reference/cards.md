@@ -63,8 +63,7 @@ The project declares `nixpkgs` and `tsugumi-kit` in `tsugumi.json` under `nixPat
           },
           "systems": [
             "aarch64-linux"
-          ],
-          "workerCapabilities": []
+          ]
         }
       }
     },
