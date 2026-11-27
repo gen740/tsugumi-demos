@@ -7,7 +7,7 @@
     }
   ],
   "maxRuns": 100000,
-  "reuseWorker": false,
+  "reuseWorker": true,
   "timeoutSeconds": 0,
   "buildTimeoutSeconds": 0,
   "recordLogs": "project",
