@@ -22,7 +22,7 @@ def run(inputs: Input) -> Output:
     raise_by = int(params.raise_by)
     nodes = c.nodes.decode().split()
     edges = [(nodes[u], nodes[v], int(x)) for u, v, x in zip(c.tail, c.head, c.capacity)]
-    side = set(c.sourceSide.decode().split())
+    side = set(c.source_side.decode().split())
     base = int(c.value)
 
     rows = []

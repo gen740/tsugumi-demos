@@ -27,7 +27,7 @@ def run(inputs: Input) -> Output:
     nodes = c.nodes.decode().split()
     edges = [(nodes[u], nodes[v], int(x)) for u, v, x in zip(c.tail, c.head, c.capacity)]
     amounts = {(nodes[u], nodes[v]): int(x) for u, v, x in zip(c.tail, c.head, c.flow)}
-    side = set(c.sourceSide.decode().split())
+    side = set(c.source_side.decode().split())
     on_cut = [(u, v) for u, v, _ in edges if u in side and v not in side]
     off_cut = [(u, v) for u, v, _ in edges if not (u in side and v not in side)]
     base, base_cut = solve(edges)

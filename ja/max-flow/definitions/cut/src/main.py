@@ -72,5 +72,5 @@ def run(inputs: Input) -> Output:
         capacity=caps,
         flow=flow,
         value=f.value,
-        sourceSide=side,
+        source_side=side,
     ), figure=artifact)
